@@ -202,3 +202,17 @@ body {
 #photo-header {
     margin-top: -75px;
 }
+
+.skills-legend {
+    margin-top: 20px;
+    opacity: 0.8;
+}
+
+.skills-legend div {
+    display: inline-block;
+    float: left;
+    width: 25%;
+    font-size: 1.2em;
+    color: #a9a9a9;
+}
+
