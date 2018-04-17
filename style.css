@@ -135,5 +135,36 @@ body {
     padding: 0;
     margin: 0;
     font-size: 1.6em;
+    font-weight: 700;
+}
+
+#funfacts .fact {
+    padding-bottom: 10px;
+    margin: 10px 0;
+    font-size: 1.3em;
     border-bottom: 1px solid #eee;
+}
+
+.hobby {
+    position: relative;
+    display: inline-block;
+    padding: 5px 5px 5px 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    font-size: 1.2em;
+    color: #fff;
+    background: #a75265;
+}
+
+.item-skills {
+    height: 30px;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    overflow: hidden;
+    font-size: 1.3em;
+    font-weight: 600;
+    color: #fff;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    background: #ff8598;
 }
