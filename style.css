@@ -5,3 +5,23 @@ body {
     color: #363636;
     background-color: #ededed;
 }
+.box {
+    margin-bottom: 15px;
+}
+
+.box p {
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+.box h2 {
+    font-size: 1.8em;
+    font-weight: 700;
+    color: #ff8598;
+    text-transform: uppercase;
+}
+
+.box h2::before {
+    margin-right: 5px;
+    content:"//";
+}
