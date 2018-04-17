@@ -168,3 +168,18 @@ body {
     white-space: nowrap;
     background: #ff8598;
 }
+
+.job {
+    margin-bottom: 15px;
+}
+
+.job .where {
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.job .profession {
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
