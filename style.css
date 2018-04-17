@@ -183,3 +183,22 @@ body {
     font-weight: bold;
 }
 
+#photo {
+    display: inline-block;
+    width: 160px;
+    height: 160px;
+    padding: 5px;
+    overflow: hidden;
+    background: #ededed;
+    border-radius: 50%;
+}
+
+#photo img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+#photo-header {
+    margin-top: -75px;
+}
