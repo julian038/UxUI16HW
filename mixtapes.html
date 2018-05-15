@@ -63,20 +63,43 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-12-md center">
-                <div id="jumbo" class="jumbotron">
-                    <h1>Greatest Hip Hop Mixtapes</h1>
-                    <h2>In no particular order</h2>
-                    <ul>
-                        <li>Lil Wayne - Da Drought 3</li>
-                        <li>Danny Brown - XXX</li>
-                        <li>Chance the Rapper - Acid Rap</li>
-                        <li>A$AP Rocky - LIVELOVEA$AP</li>
-                        <li>Rich Gang - Tha Tour, Pt. 1</li>
+            <div class="col-md-12 center">
+                <div id="jumbo" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ul class="carousel-indicators">
+                        <li data-target="#jumbo" data-slide-to="0" class="active"></li>
+                        <li data-target="#jumbo" data-slide-to="1"></li>
                     </ul>
+
+                    <!-- The Slideshow -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./images/wayne.jpeg" alt="Drought 3">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./images/tour.jpg" alt="Tha Tour Part 1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./images/asap.jpg" alt="liveloveasap"
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./images/chance.jpg" alt="acidrap">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./images/xxx.jpg" alt="dannybrown xxx"
+                        </div>
+                    </div>
+
+                    <!--Left and Riht Controls -->
+                    <a class="carousel-control-prev" href="#jumbo" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#jumbo" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
                 </div>
             </div>
         </div>
-    </div>
+    </div> 
 </body>
 </html>    
